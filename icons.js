@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Orbita — icônes SVG inline (traits, sans dépendance externe)
+   ========================================================================== */
+const Icons = {
+  orbit: `<svg class="icon brand-mark" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="4.2" fill="currentColor" stroke="none"/><ellipse cx="20" cy="20" rx="17" ry="8" stroke="currentColor" stroke-width="1.6"/><ellipse cx="20" cy="20" rx="17" ry="8" stroke="currentColor" stroke-width="1.6" transform="rotate(60 20 20)"/><ellipse cx="20" cy="20" rx="17" ry="8" stroke="currentColor" stroke-width="1.6" transform="rotate(120 20 20)"/><circle cx="37" cy="20" r="2.4" fill="currentColor" stroke="none"/><circle cx="11.5" cy="33.9" r="2.4" fill="currentColor" stroke="none"/><circle cx="11.5" cy="6.1" r="2.4" fill="currentColor" stroke="none"/></svg>`,
+  user: `<svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20c1.5-3.8 4.5-5.5 7.5-5.5s6 1.7 7.5 5.5"/></svg>`,
+  lock: `<svg class="icon" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7.5a4 4 0 1 1 8 0V11"/></svg>`,
+  eye: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>`,
+  box: `<svg class="icon" viewBox="0 0 24 24"><path d="M21 8l-9-5-9 5 9 5 9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>`,
+  building: `<svg class="icon" viewBox="0 0 24 24"><rect x="4" y="3" width="11" height="18" rx="1"/><path d="M15 8h5v13h-5"/><path d="M7.5 7h1M7.5 10h1M7.5 13h1M7.5 16h1M11.5 7h1M11.5 10h1M11.5 13h1M11.5 16h1"/></svg>`,
+  car: `<svg class="icon" viewBox="0 0 24 24"><path d="M3 13l1.7-5.1A2 2 0 0 1 6.6 6.5h10.8a2 2 0 0 1 1.9 1.4L21 13"/><rect x="2.5" y="13" width="19" height="6" rx="1.5"/><circle cx="7" cy="19" r="1.6"/><circle cx="17" cy="19" r="1.6"/></svg>`,
+  grid: `<svg class="icon" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.2"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.2"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.2"/></svg>`,
+  users: `<svg class="icon" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M2.8 19c1.2-3.3 3.6-4.8 6.2-4.8s5 1.5 6.2 4.8"/><circle cx="17" cy="8.5" r="2.6"/><path d="M15.5 14.4c2.1.2 3.8 1.6 4.7 4.1"/></svg>`,
+  cash: `<svg class="icon" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2"/><circle cx="12" cy="12" r="3"/><path d="M6 9v.01M18 15v.01"/></svg>`,
+  bell: `<svg class="icon" viewBox="0 0 24 24"><path d="M6 9a6 6 0 1 1 12 0c0 4 1.5 5.5 1.5 5.5H4.5S6 13 6 9Z"/><path d="M10 19a2 2 0 0 0 4 0"/></svg>`,
+  plus: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>`,
+  edit: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3Z"/><path d="M13.5 7.5l3 3"/></svg>`,
+  trash: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4.5A1.5 1.5 0 0 1 10.5 3h3A1.5 1.5 0 0 1 15 4.5V7"/><path d="M6 7l1 13a1.5 1.5 0 0 0 1.5 1.4h7A1.5 1.5 0 0 0 17 20l1-13"/><path d="M10 11v6M14 11v6"/></svg>`,
+  search: `<svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>`,
+  logout: `<svg class="icon" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>`,
+  switch: `<svg class="icon" viewBox="0 0 24 24"><path d="M7 3L3 7l4 4"/><path d="M3 7h11a5 5 0 0 1 5 5v0"/><path d="M17 21l4-4-4-4"/><path d="M21 17H10a5 5 0 0 1-5-5v0"/></svg>`,
+  chevronRight: `<svg class="icon" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>`,
+  alert: `<svg class="icon" viewBox="0 0 24 24"><path d="M12 3l10 18H2L12 3Z"/><path d="M12 10v4M12 17.5v.01"/></svg>`,
+  check: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>`,
+  x: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>`,
+  inbox: `<svg class="icon" viewBox="0 0 24 24"><path d="M3 12h4.5l1.5 3h6l1.5-3H21"/><path d="M5 5h14l2 7v7a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 19v-7l2-7Z"/></svg>`,
+  menu: `<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>`,
+  home: `<svg class="icon" viewBox="0 0 24 24"><path d="M4 11.5L12 4l8 7.5"/><path d="M6 10v9.5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V10"/></svg>`,
+  refresh: `<svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15.4-6.4L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.4 6.4L3 16"/><path d="M3 21v-5h5"/></svg>`,
+};
